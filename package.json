@@ -13,5 +13,10 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "styled-components": "4.4.1"
+  },
+  "resolutions": {
+    "kind-of": ">=6.0.3",
+    "minimist": ">=1.2.3",
+    "set-value": ">=3.0.1"
   }
 }
