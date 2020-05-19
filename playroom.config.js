@@ -2,7 +2,7 @@ module.exports = {
   components: "@kiwicom/orbit-components/lib",
   outputPath: "./public",
   exampleCode: `
-<Stack>
+<Stack align="center" direction="column">
   <Heading type="title2">
     <TextLink href="https://orbit.kiwi">
       <code>@kiwicom/orbit-components</code>
@@ -13,7 +13,17 @@ module.exports = {
     </TextLink>{" = "}
     🔥
   </Heading>
+  <ButtonLink
+    size="small"
+    circled
+    external
+    href="https://github.com/RobinCsl/orbit-components-x-playroom"
+   >
+    ✨ Source on GitHub
+   </ButtonLink>
   <Stack spacing="tight" direction="row">
+    <Card>
+      <CardSection>
     {[
       ["Orbit", "success"],
       ["is", "warning"],
@@ -24,7 +34,8 @@ module.exports = {
         {label}
       </Badge>
     ))}
+      </CardSection>
+    </Card>
   </Stack>
-</Stack>
-`
+</Stack>`
 };
